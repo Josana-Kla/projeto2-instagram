@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .topo {
@@ -14,6 +15,7 @@
   height: 54px;
   left: 0;
   top: 0;
+  z-index: 1; 
 }
 
 nav {
@@ -58,16 +60,27 @@ nav {
   background-color: burlywood;
 
   display: flex;
+  justify-content: space-between;  /*posso ter que mudar*/
+  align-items: center;
 }
 
 .story {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 66px;
 }
 
 .story img:nth-child(1) {
-  height: 66px;
+  /*height: 66px;*/
+  width: 100%;
+}
+
+.story img:nth-child(2) {
+  /*height: 56px;*/
+
+  position: absolute;
 }
 
 .menu-da-foto {
@@ -85,6 +98,10 @@ nav {
 
 .menu-da-foto img {
   height: 32px;
+}
+
+.linha-do-tempo img {
+  width: 100%;
 }
 
 
