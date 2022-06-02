@@ -5,6 +5,15 @@
 .topo {
   display: flex;
   justify-content: center;
+  
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #DBDBDB;
+  
+  position: fixed;
+  width: 100%;
+  height: 54px;
+  left: 0;
+  top: 0;
 }
 
 nav {
@@ -12,6 +21,90 @@ nav {
 
   display: flex;
   justify-content: space-between;
-  width: 935px;
+  align-items: center;
 
+  width: 935px;
+}
+
+.logos {
+  display: flex;
+}
+
+.fundo-timeline {
+  background-color: blueviolet;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 54px;
+}
+
+.feed-e-sidebar {
+  background-color: beige;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 935px;
+}
+
+.feed {
+  background-color: darkcyan;
+
+  width: 614px;
+}
+
+.stories {
+  background-color: burlywood;
+
+  display: flex;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story img:nth-child(1) {
+  height: 66px;
+}
+
+.menu-da-foto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 61px;
+}
+
+.menu-da-foto div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.menu-da-foto img {
+  height: 32px;
+}
+
+
+
+.sidebar {
+  width: 293px; /*ver se precisa deixar esses valores fixos*/
+}
+
+
+
+
+/*    MOBILE    */
+@media (max-width: 935px) {
+  .feed-e-sidebar {
+    background-color: violet;
+
+    justify-content: center;
+  }
+
+  .sidebar {
+    display: none;
+  }
 }
