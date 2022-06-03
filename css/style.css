@@ -70,7 +70,10 @@ nav {
   overflow: hidden; /*talvez*/
 }
 
-.stories .seta {
+.stories ion-icon {
+  color: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
   width: 32px;
   height: 32px;
 
@@ -224,7 +227,7 @@ strong {
 
 
 /*    ESCONDER SIDEBAR    */
-@media (max-width: 935px) {
+@media (max-width: 934px) {
   .feed-e-sidebar {
     background-color: violet;
 
@@ -238,6 +241,6 @@ strong {
 
 
 /*    MOBILE    */
-@media (max-width: 614px) {
+@media (max-width: 613px) {
 
 }
