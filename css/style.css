@@ -64,6 +64,7 @@ nav {
   align-items: center;
 
   height: 118px;
+  position: relative; /*para arrumar os stories*/
 }
 
 .story {
@@ -72,18 +73,26 @@ nav {
   align-items: center;
 
   width: 66px;
+  height: 86px;
   overflow: hidden;
 }
 
-.story img:nth-child(1) {
-  /*height: 66px;*/
+.fotos-story {
+  position: relative;
+}
+
+.fotos-story img:nth-child(1) {
   width: 100%;
 }
 
-.story img:nth-child(2) {
-  /*height: 56px;*/
+.fotos-story div {
+  width: 56px;
 
   position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
 }
 
 .story p {
