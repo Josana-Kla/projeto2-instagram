@@ -228,10 +228,7 @@
 }
 
 .sidebar {
-  background-color: rgb(176, 237, 248);
-  
   width: 293px; /*ver se precisa deixar esses valores fixos*/
-
 }
 
 .perfil-sidebar {
@@ -257,7 +254,7 @@
 }
 
 .lista-sugestoes {
-  margin-bottom: 17px;
+  margin-bottom: 33px;
 }
 
 .texto-sugestoes {
@@ -316,6 +313,10 @@
 footer p {
   color: #C7C7C7;
   font-size: 11px;
+}
+
+footer p:nth-child(1) {
+  margin-bottom: 18px;
 }
 
 strong {
