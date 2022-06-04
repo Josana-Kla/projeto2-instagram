@@ -201,14 +201,31 @@
   margin: 10px 0;
 }
 
+.icones-acoes-imagem div {
+  margin-left: 14px;
+}
+
 .icones-acoes-imagem ion-icon {
   width: 22px;
   height: 22px;
 
-  margin: 0 7px;
+  margin-right: 7px;
 }
 
+.descricao-acoes-foto {
+  display: flex;
+  align-items: center;
 
+  margin: 0 0 14px 17px;
+  font-size: 14px;
+}
+
+.descricao-acoes-foto img {
+  width: 20px;
+  height: 20px;
+
+  margin-right: 5px;
+}
 
 .sidebar {
   background-color: rgb(176, 237, 248);
