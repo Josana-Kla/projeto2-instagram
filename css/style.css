@@ -62,12 +62,14 @@ nav {
   border-radius: 3px;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
 
   height: 118px;
-  position: relative; /*para arrumar a  seta*/
-  overflow: hidden; /*talvez*/
+  position: relative; 
+  overflow: hidden; 
+
+  padding-left: 11px;
 }
 
 .stories ion-icon {
@@ -85,22 +87,28 @@ nav {
 .story {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   width: 66px;
   height: 86px;
-  overflow: hidden;
+
+  margin: 0 7px 0 7px;
 }
 
 .fotos-story {
   position: relative;
 }
 
-.fotos-story img:nth-child(1) {
-  width: 100%;
+.fotos-story img {
+  width: 66px;
+  height: 66px;
 }
 
-.fotos-story div {
+.foto img {
+  width: 56px;
+  height: 56px;
+
   position: absolute;
   top: 5px;
   left: 5px;
@@ -111,6 +119,8 @@ nav {
 .story p {
   color: #262626;
   font-size: 12px;
+  /*text-align: start;
+  overflow: hidden;*/
 }
 
 .menu-da-foto {
