@@ -158,13 +158,28 @@
   height: 61px;
 }
 
-.menu-da-foto div:nth-child(1) {
+.menu-da-foto div {
   display: flex;
   align-items: center;
+
+  margin-left: 17px;
 }
 
 .menu-da-foto img {
   height: 32px;
+
+  margin-right: 15px;
+}
+
+.menu-da-foto p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #262626;
+}
+
+.menu-da-foto ion-icon {
+  color: #262626;
+  margin-right: 17px;
 }
 
 .linha-do-tempo {
