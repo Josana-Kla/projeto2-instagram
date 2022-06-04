@@ -79,8 +79,6 @@
 }
 
 .feed {
-  background-color: #FFFFFF;
-
   width: 614px;
 }
 
@@ -186,7 +184,7 @@
   border: 1px solid #DBDBDB;
   border-radius: 3px;
 
-  margin: 24px 0 36px 0;
+  margin: 24px 0 60px 0;
 }
 
 .linha-do-tempo img {
@@ -228,7 +226,7 @@
 }
 
 .sidebar {
-  width: 293px; /*ver se precisa deixar esses valores fixos*/
+  width: 293px;
 }
 
 .perfil-sidebar {
@@ -328,8 +326,6 @@ strong {
 /*    ESCONDER SIDEBAR    */
 @media (max-width: 934px) {
   .feed-e-sidebar {
-    background-color: violet;
-
     justify-content: center;
   }
 
@@ -337,6 +333,7 @@ strong {
     display: none;
   }
 }
+
 
 
 /*    MOBILE    */
