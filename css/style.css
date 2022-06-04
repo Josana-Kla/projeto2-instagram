@@ -171,6 +171,7 @@
 
 .menu-da-foto img {
   height: 32px;
+  border-radius: 50%;
 
   margin-right: 15px;
 }
@@ -195,6 +196,11 @@
 
 .linha-do-tempo img {
   width: 100%;
+}
+
+.linha-do-tempo video {
+  width: 100%;
+  height: 612px;
 }
 
 .icones-acoes-imagem {
