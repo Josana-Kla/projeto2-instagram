@@ -331,6 +331,10 @@ strong {
 
 /*    ESCONDER SIDEBAR    */
 @media (max-width: 934px) {
+  .desktop-nav {
+    margin: 0 20px;
+  }
+
   .feed-e-sidebar {
     justify-content: center;
   }
@@ -351,8 +355,23 @@ strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    border-bottom: 1px solid #DBDBDB;
+
+    height: 54px;
+  }
+
+  .mobile-nav ion-icon {
+    width: 22px;
+    height: 22px;
+
+    margin: 0 20px 0 16px;
   }
   
+  .fundo-timeline {
+    margin-top: 0;
+  }
+
   .feed-e-sidebar {
     margin-top: 0;
   }
