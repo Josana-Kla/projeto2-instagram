@@ -240,6 +240,10 @@
 
 .sidebar {
   width: 293px;
+  
+  position: fixed;
+  top: 88px;
+  right: calc((100vw - 935px) / 2);
 }
 
 .perfil-sidebar {
