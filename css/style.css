@@ -334,6 +334,10 @@ footer p:nth-child(1) {
   margin-bottom: 18px;
 }
 
+.barra-inferior {
+  display: none;
+}
+
 strong {
   font-weight: bold;
 }
@@ -404,5 +408,27 @@ strong {
 
   .feed {
     width: 100vw;
+  }
+
+  .barra-inferior {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 54px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+  }
+
+  .barra-inferior ion-icon {
+    width: 22px;
+    height: 22px;
   }
 }
